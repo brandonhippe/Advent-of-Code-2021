@@ -49,7 +49,7 @@ def relativeBeacons(data):
             scannerDists.append({})
             betweenBeacons.append(defaultdict(set))
         elif len(line) != 0:
-            pos = tuple(int(n) for n in re.findall('-?\d+', line))
+            pos = tuple(int(n) for n in re.findall(r'-?\d+', line))
 
             for other in scanners[-1]:
                 d = pythagDist(pos, other)
