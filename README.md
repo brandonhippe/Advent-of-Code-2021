@@ -3,7 +3,7 @@
 # brandonhippe's Advent of Code Solutions for 2021
 <!-- #{(year_tiles)} -->
 <h1 align="center">
-  2021 - 50 ⭐ - Python/Rust
+  2021 - 50 ⭐ - Rust/Python
 </h1>
 <a href="c/1.c">
   <img src=".tiles/images/2021/01.png" width="161px">
